@@ -1,0 +1,82 @@
+.active{
+    border: 1px solid blue;
+    background-color: blue;
+    
+
+}
+.login{
+    border:2px solid black;
+    border-radius: 20px;
+    height:350px;
+    width:300px;
+    margin: 10px auto;
+    background-color: #42EADDFF;
+    color:rgb(184, 159, 131);
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+ 
+ }
+ .login input{
+ 
+    margin-left: 50px;
+    height: 30px;
+    background-color: #CDB599FF;
+    border-color: rgb(77, 189, 179);
+    /* margin-left: 60px;
+    margin-top:50px */
+ 
+ }
+ .login h2{
+    text-align: center;
+ }
+ .login h4{
+    margin-left: 50px;
+ }
+ #fir{
+    margin-top: 50px;
+ }
+ #btn{
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: #CDB599FF;
+    color: #42EADDFF;
+    width: 70px;
+    height: 35px;
+ }
+#time{
+    margin-left: 450px;
+    margin-bottom: 0;
+}
+#question{
+    margin-top: -20px;
+
+}
+p{
+   cursor: pointer;
+   
+}
+.table{
+   margin: 10px auto;
+   border: 1px solid black;
+   width: 500px;
+   padding-left: 10px;
+   height: 300px;
+   margin-top: 100px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#next{
+  
+   float: right;
+   margin-right: 10px;
+}
+.table p{
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+#time{
+   display: flex;
+   
+}
+#res{
+   text-align: center;
+}

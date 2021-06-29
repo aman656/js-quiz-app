@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="Start(0)">
+    <div class="table">
+        <h4 id="time">00</h4>
+        <h4 id="question" ></h4>
+        
+        <p class="option" onclick="clickRes(this)"></p>
+        <p class="option" onclick="clickRes(this)"></p>
+        <p class="option" onclick="clickRes(this)"></p>
+        <button id="next" onclick="Score();Next(); removeclickRes();">Next Question</button>
+    </div>
+
+    <br>
+    <h1 id="res"></h1>
+    <!-- <button id="sub" onclick="Result();" ><a href="result.html">Submit</a></button> -->
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
